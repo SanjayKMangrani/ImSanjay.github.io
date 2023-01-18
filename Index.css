@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: rgba(223, 218, 218);
+    width: 434px;
+    font-family: sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.navbarGo{
+    transform: translate(-443px,0px);
+}
+.navbar nav{
+    padding: 35px;
+}
+.navbar nav li{
+    list-style: none;
+    font-size: 1.5em;
+    padding: 33px 0;
+    font-weight: bold;
+}
+.navbar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    width: 84vw;
+    padding: 23px;
+}
+.container{
+    display: flex;
+}
+.ContainerInfo{
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+.AboutDetails{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+.Info{
+    font-size: 1.5em;
+    text-align: justify;
+}
+.name{
+    font-size: 3.5em;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.position{
+    font-size: 3em;
+}
+.AboutPhoto img{
+    height: 58vh;
+}
+.buttons{
+margin-top: 35px;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+
+.SideMenu{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.sideIcon{
+    margin-left: 10px;
+}
+ .CrossIcon{
+     margin-left: auto; 
+} 
+
+.ExperienceContainer{
+    height: 58vh;
+    width: 80vw;
+    justify-content: space-around;
+}
+@media (max-width: 1015px){ 
+    .AboutPhoto{
+        display: none;
+    }
+    .CrossIcon{
+        margin-left: auto;
+    }
+    .ContainerInfo .contactForm{
+        margin: 8px;
+
+    }
+}
+
+

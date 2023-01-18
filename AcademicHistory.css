@@ -1,0 +1,21 @@
+.EducationList{
+    margin: 130px auto;
+    font-size: 1.3em;
+  }
+ .EducationList ol {
+    list-style: none;
+    padding: 0;
+
+  }
+  .EducationList ol li {
+    padding: 5px 10px;
+    background-color: #EEEEEE;
+    border: 1px solid #DDDDDD;
+    padding: 2em;
+  }
+  @media (max-width: 1015px){ 
+    .EducationList ol li{
+      font-size: 2em;
+      height: 100%;
+    }
+  }

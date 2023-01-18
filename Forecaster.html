@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.1/d3.min.js" integrity=
+    "sha512-EJphfO0pq9xyT3qaHte1zam2S9a1PZ76oHBjayziMT+2lw/Y0NhkSVHS2rfl3t4UX/eyq/D6f9d2sjA6K9t/Kg==" crossorigin=
+    "anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@next/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+    <link rel="stylesheet" href="styles/Froecaster.css">
+<title>Sanjay Kumar</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="/Index.html">About Me</a></li>
+                    <li><a href="/AcademicHistory.html">Academic</a></li>
+                    <li><a href="/PofessionalHistory.html">Proffesional</a></li>
+                    <li><a href="/Projects.html">Projects</a></li>
+                    <li><a href="/CurrencyConverter.html">Currency Converter</a></li>
+                    <li><a href="/Forecaster.html">Forecaster</a></li>
+                    <li><a href="/Contact.html">Contact</a></li>
+                </ul>   
+            </nav>
+        </div>
+        <div class="main">
+            <div class="SideMenu">
+                <img class="SideIcon" src="/sidebar.png" alt="" width="23">
+                <img class="CrossIcon" src="/x-mark.png" alt="" width="23">
+            </div>
+            <p style="font-weight: bold;">Sanjay Kumar - Sanjaymungrani@gmail.com</p>
+            <div class="ExperienceContainer">
+                <div class="Forecastercontainer">
+                    <canvas id="ForecastChart"></canvas> 
+                    <button type="button" id="scrollleft">&lt;</button>
+                    <button type="button" id="scrollright">&gt;</button> 
+                </div>            
+            </div>
+        </div>
+    </div>
+    <script src="Forecaster.js"></script>
+    <script src="Script.js"></script>
+</body>
+</html> 

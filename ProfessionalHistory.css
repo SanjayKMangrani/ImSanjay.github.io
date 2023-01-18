@@ -1,0 +1,51 @@
+.inner
+{
+    margin: 100px auto;
+	padding:1em;
+
+}
+
+.inner h1
+{
+	font-size:1.75em;
+}
+
+.inner p
+{
+	color:rgba(0,0,0,.5);
+    font-size: 1.3em;
+}
+
+.inner p em
+{
+	color:rgba(0,0,0,1);
+	font-style:normal;
+}
+
+.inner section
+{
+	margin:50px auto;
+}
+
+ul
+{
+	list-style-type:none;
+	margin-top:-10px;
+	max-width:570px;
+	padding:0;
+}
+
+.skill-set li
+{
+	background:rgba(0,0,0,.75);
+	border-radius:5px;
+	color:#FFF;
+	display:inline-block;
+	list-style:none;
+	margin:15px 15px 0 0;
+	padding:10px;
+	text-align:justify;
+}
+.skill-set li:hover{
+    background-color:dodgerblue;
+}

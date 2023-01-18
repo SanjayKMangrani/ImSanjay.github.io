@@ -1,0 +1,27 @@
+.contactForm{
+    justify-content: center;
+    display: flex;
+    margin: 100px auto;
+    padding: 0 34px;
+    font-family: sans-serif;
+    width: 77vw;
+
+}
+ .contactForm h1{
+    text-align: center;
+    border: 1px solid;
+    background-color: lightgray;
+    border-radius: 10px;
+} 
+.contactForm form div{
+  padding: 10px 0;  
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+}
+.contactForm form div input{
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;  
+  }

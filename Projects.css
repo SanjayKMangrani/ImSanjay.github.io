@@ -1,0 +1,46 @@
+.Projectcolumn {
+    float: left;
+    width: 30%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .Projectrow {
+    margin: 160px auto;
+}
+  
+  /* Clear floats after the columns */
+  .Projectrow:after {
+    content: "";
+    display: table;
+    clear: both;}
+  
+.Projectcard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    }
+.Projectcard img{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border: 1px solid #ddd;
+    border-radius: 5px 5px 0 0;
+    padding: 5px;
+    width: 250px;
+}
+.Projectcard img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+  @media (max-width: 1015px){ 
+    .Projectcolumn {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+  }
+  .Projectcard img{
+  width: 100%;
+  }
+  }
+
